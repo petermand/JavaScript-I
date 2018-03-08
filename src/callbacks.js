@@ -32,7 +32,7 @@ const contains = (item, list, cb) => {
      if (item === list[i]) {
        cb(true);
        } else {
-         cb(false);
+         cb(false);      
        } 
      }
 };
